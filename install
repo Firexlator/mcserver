@@ -13,4 +13,4 @@ wget https://github.com/Firexlator/mcserver/raw/main/uninstall
 clear
 echo Downloaded!
 echo Installing minecraft server...
-./install
+./install.sh
