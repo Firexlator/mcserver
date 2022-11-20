@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo Downloading files...
+cd ~/
+mkdir .firexdata
+cd ~/.firexdata/
+mkdir temp0001
+cd ~/.firexdata/temp0001
+wget https://github.com/Firexlator/mcserver/raw/main/icon-24.png
+wget https://github.com/Firexlator/mcserver/raw/main/icon-64.png
+wget https://github.com/Firexlator/mcserver/raw/main/install
+wget https://github.com/Firexlator/mcserver/raw/main/uninstall
+clear
+echo Downloaded!
+echo Installing minecraft server...
+./install
